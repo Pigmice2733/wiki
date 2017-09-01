@@ -2,4 +2,4 @@
 This is another pigmice doc, this time for github pages!
 
 
-[Strategy] (\strategy.md)
+[Strategy] (https://pigmice2733.github.io/strategy)
