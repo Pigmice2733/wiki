@@ -1,0 +1,14 @@
+.g-button {
+  padding: 12px 14px;
+  border-radius: 5px;
+  background-color: purple;
+  color: white;
+  text-decoration: none;
+  margin: 10px 0;
+  display: inline-block;
+
+  &:hover,
+  &:focus {
+    background-color: lighten(purple, 5%);
+  }
+}

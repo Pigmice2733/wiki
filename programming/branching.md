@@ -1,6 +1,3 @@
----
----
-
 # Branching
 
 In Git, *branches* are different paths of development. They allow multiple developers to work on code simultaneously without interfering with each other.

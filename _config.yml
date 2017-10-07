@@ -1,4 +1,11 @@
-theme: jekyll-theme-slate
+title: Pigmice Wiki
+
+github_edit_url: https://github.com/Pigmice2733/wiki/edit/master/
+
+livereload: true
+
+sass:
+  style: compressed
 
 defaults:
   -
