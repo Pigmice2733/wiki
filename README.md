@@ -18,4 +18,4 @@ View it at https://pigmice.netlify.com/
 
 ### Windows
 
-[Follow this guide](https://jekyllrb.com/docs/windows/#installation) Have fun! :wink:
+[Follow this guide](https://jekyllrb.com/docs/windows/#installation). Have fun! :wink:
