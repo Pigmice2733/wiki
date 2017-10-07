@@ -1,6 +1,6 @@
 # Pigmice Wiki
 
-Instuctions and guidelines for the Pigmice.
+Instructions and guidelines for the Pigmice.
 
 View it at https://pigmice.netlify.com/
 
@@ -12,8 +12,9 @@ View it at https://pigmice.netlify.com/
 
 1. Install [Ruby](https://www.ruby-lang.org/en/)
 2. Install [RubyGems](https://rubygems.org/pages/download)
-3. Install [Jekyll](https://jekyllrb.com/) `gem install jekyll`
+3. Install [Bundler](https://bundler.io/) `gem install bundler`
 4. Download this repo `git clone https://github.com/Pigmice2733/wiki`
+5. Install the dependencies `bundle install`
 5. Run `jekyll serve`, and open [`http://127.0.0.1:4000`](http://127.0.0.1:4000)
 
 ### Windows
