@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width,maximum-scale=2">
+    <link rel="stylesheet" type="text/css" media="screen" href="/css/main.css">
+    <title>{{ page.title }} | {{ site.title }}</title>
+  </head>
+  <body>
+    <header class="g-header">
+      <a href="/"><h1>Pigmice Wiki</h1></a>
+      <nav>
+        <a class="g-button" href="/">Home</a>
+    </header>
+    <main>
+      <article>
+        {{ content }}
+      </article>
+      <a class="g-button" href="{{ site.github_edit_url }}{{ page.path }}">Suggest an edit to this page</a>
+    </main>
+  </body>
+</html>

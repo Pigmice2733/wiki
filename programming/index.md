@@ -1,6 +1,3 @@
----
----
-
 # Programming
 
 The Programming team sets up the robot to move based on the driver's controls.

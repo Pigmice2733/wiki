@@ -1,4 +1,5 @@
 ---
+title: Home
 ---
 
 # Welcome to the Pigmice Wiki!

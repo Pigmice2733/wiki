@@ -1,0 +1,54 @@
+---
+---
+
+@import 'header';
+@import 'button';
+@import 'syntax';
+
+$light-gray: rgba(black, 0.06);
+
+body {
+  margin: 0;
+  font-family: 'Myriad Pro', Calibri, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Lucida Grande', Calibri, Helvetica, Arial, sans-serif;
+}
+
+main {
+  max-width: 600px;
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: justify;
+}
+
+code {
+  background-color: $light-gray;
+  padding: 2px 4px;
+  display: inline-block;
+  margin: 2px 0;
+  border-radius: 4px;
+}
+
+.highlighter-rouge code {
+  overflow-x: auto;
+  display: block;
+  padding: 15px;
+}
+
+blockquote {
+  border-left: 5px solid $light-gray;
+  margin-left: 0;
+  padding-left: 10px;
+}
