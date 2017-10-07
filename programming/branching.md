@@ -7,20 +7,20 @@ In Git, *branches* are different paths of development. They allow multiple devel
 
 The default branch is named `master`. The code to be deployed on the robot belongs on this branch.
 
-When you want to make changes to the code, create *feature branches* for your work. Feature branches should start with a present tense verb, and should be in kebab case. Examples:
+When you want to make changes to the code, create *feature branches* for your work. Feature branches should start with a present tense verb, and should be in kebab case. They also should be prefixed with your initials followed by a `/`. Examples:
 
-- `update-robotpy`
-- `implement-flying`
-- `delete-drivetrain`
+- `pch/update-robotpy`
+- `cee/implement-flying`
+- `cee/delete-drivetrain`
 
 To create a branch, run:
 ```
-git checkout -b implement-flying
+git checkout -b cee/implement-flying
 ```
 
 To upload that branch to GitHub, run:
 ```
-git push -u origin implment-flying
+git push -u origin cee/implment-flying
 ```
 
 You should create a *pull request* on GitHub for your branch so that others can review your code. Use the `WIP` (work in progress) label until you feel that your branch is ready to be merged.
