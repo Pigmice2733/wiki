@@ -30,6 +30,6 @@ As you develop your feature, deploy your code to the robot to test whether it wo
 git rebase origin/master
 ```
 
-Once you feel confident that your code is ready, replace the `WIP` pull request label with `Ready`. Then request review from at least one mentor and one student. Requiring all code to be reviewed ensures that the code stays high quality.
+Once you feel confident that your code is ready, replace the `WIP` pull request label with `Ready`. Then request review from a mentor or a student. Students can review smaller changes, while large changes should be reviewed by mentors. Requiring all code to be reviewed ensures that the code stays high quality.
 
-Once a mentor and a student have approved your changes, they will merge your code into `master`. At that point you can delete your feature branch.
+Once a mentor or a student have approved your changes, you may merge your code into `master`. At that point you can delete your feature branch.
