@@ -1,7 +1,7 @@
 # Learn Python on Windows
 
 1. Download and install the latest version of Python [here](https://www.python.org/downloads/)
-2. Download and install the latest version of Thonny [here](http://thonny.org/)
+2. Download and install the latest version of Atom [here](https://atom.io/)
 3. Download and install the latest version of Github [here](https://desktop.github.com/)
 4. To clone FRC team 1418's "PyBasicTraining" from Github, first go [here](https://github.com/frc1418/pybasictraining). 
 From there, click the green "Clone or download" button. Then, click the small clipboard icon.This will copy the URL of the whole 
