@@ -4,7 +4,7 @@ Once we have written unit tests, you need to be able to run them and check your 
 Before we start, make sure you have the Atom editor, Python 3, and a GitHub repository already installed in atom.
 To check what version of python you are running type `python3 --version` into the terminal (Powershell on Windows). If you have Python 3 or later installed this should print out a version number starting with 3, such as `3.6.3`.
 
-Atom has a quick search feature that can be accessed with the keyshortcut `Shift+Command+P` (for macs) or `Shift+Ctrl+P` (in Windows) or you can manually go to **> Packages > Command Palette > Toggle**.
+Atom has a quick search feature that can be accessed with the keyshortcut <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (on macs) or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (on Windows) or you can manually go to **> Packages > Command Palette > Toggle**.
 Search for *settings* and then the *install* subbar. You will need to install the two following atom packages:
 `atom-python-test` (from pghilardi)
 `atom-python-virtualenv` (also from pghilardi) **Note:** This project says it currently doesn't support Windows or `pip`.
@@ -15,7 +15,4 @@ We need to turn this on in Atom, so go back to the settings page in Atom and go 
 
 You are now done with your installation!
 
-Wherever you have your tests written, with pytest we can now right click on that file.
-> pytest
-
-Then click to run all tests.
+Once you have your tests written, you can right click on the test file and click `pytest`
