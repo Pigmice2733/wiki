@@ -7,4 +7,5 @@ title: Home
 Here you'll find instructions and guidelines for completing various tasks on the Pigmice.
 
 - [Programming](programming)
+- [Project Management](project-managment)
 - [Contributing to this wiki](contributing-to-wiki)
