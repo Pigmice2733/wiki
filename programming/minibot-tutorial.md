@@ -17,7 +17,6 @@ CHASSIS:
 
 MOTORS: 
 1. If you stand the motor on it's side, with it's connector points facing towards you, you need to solder a PCS Female Connector to it. The positive red side should be soldered to the top and the negative red side on the bottom
-![Naming a file](IMG_8799(1).jpg) 
 2. Take another motor and solder a yellow wire to each of the motors connector.
 3. Line the motor up so you have your motor with the pcs connector on the left and the motor with just regular yellow wires on the right.
 4. Now solder the yellow wires to the other motor, but solder to the opposite connector. The red wire that's on top should be soldered to the connector on the bottom, and visa vera for the negitive. Your wires should be criss crossed with the pcs connector coming out.
