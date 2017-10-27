@@ -1,8 +1,8 @@
-Creating a minibot is great for testing small projects, it's to try new parts out and costs considerably less. This is a tutorial on how to assemble one of your own.
+Creating a minibot is great for testing small projects. It's an easy change to try out new parts out and costs considerably less than a larger robot. This is a tutorial on how to assemble one of your own. How to program your minibot is on the following wiki page.
 ------------------------------
 PARTS NEEDED:
 
-We use many parts from Sainsmart's Kit (https://www.sainsmart.com/products/4wd-robot-car-chasis-kit). Though you can also use your own parts. 
+We use many parts from Sainsmart's 4WD Robot Car Chasis Kit (https://www.sainsmart.com/products/4wd-robot-car-chasis-kit), along with our own. Though you can also build entirely from scratch. 
 - Frame
 - 4 X 130 DC Motors
 - Pololu Motor Controller Boards 
@@ -44,5 +44,6 @@ MOTOR SPEED CONTROLLERS:
 6. Slip the heat shrink over the connection. Use a heat gun or your soldering gun to secure the connection
 
 TODO: 
+3D model of frame 
 Configure pololu board
 Find good power supply 
