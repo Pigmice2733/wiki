@@ -1,16 +1,24 @@
 Creating a minibot is great for testing small projects, it's to try new parts out and costs considerably less. This is a tutorial on how to assemble one of your own.
 
-Parts needed: 
+PARTS NEEDED:
 We use many parts from Sainsmart's Kit (https://www.sainsmart.com/products/4wd-robot-car-chasis-kit). Though you can also use your own parts. 
 - Frame
 - 4 X 130 DC Motors
 - Pololu Motor Controller Boards 
-- Heat Shrink
-- Heat Gun (OPTIONAL)
 - PCS Female Connectors (Small and Large)
 - 2 X Brushed motor speed controller 
+- Small Wheels 
+- Raspberry Pi (a seperate wiki page shows how to program the minibot)
 - Insullated Wire 
+- Heat Shrink
+- Small Nuts and Bolts 
+
+TOOLS:
 - Soldering Supplies 
+- Mini Screw Drivers
+- Heat Gun (OPTIONAL)
+
+------------------------------
 
 CHASSIS:
 1. Assemble your frame with little nuts and bolts 
