@@ -1,4 +1,5 @@
-Creating a minibot is great for testing small projects. It's an easy change to try out new parts out and costs considerably less than a larger robot. This is a tutorial on how to assemble one of your own. How to program your minibot is on the following wiki page.
+Creating a minibot is great for testing small projects. It's an easy change to try out new parts out and costs considerably less than a larger robot. 
+This is a tutorial on how to assemble one of your own. How to program your minibot is on the following wiki page.
 ------------------------------
 PARTS NEEDED:
 
