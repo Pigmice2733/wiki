@@ -1,6 +1,7 @@
 Creating a minibot is great for testing small projects, it's to try new parts out and costs considerably less. This is a tutorial on how to assemble one of your own.
 ------------------------------
 PARTS NEEDED:
+
 We use many parts from Sainsmart's Kit (https://www.sainsmart.com/products/4wd-robot-car-chasis-kit). Though you can also use your own parts. 
 - Frame
 - 4 X 130 DC Motors
