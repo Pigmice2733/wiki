@@ -33,4 +33,4 @@ package and under its settings, uncheck the first box. Type in the `virtualenv` 
 You are now done with your installation!
 
 Once you have your tests written, you can right click on the contents of the test file and click **Py.test** > **Run all tests**
-![right click on your code to run a test](/images/path-to-image.png)
+![right click on your code to run a test:](/images/py.test.png)
