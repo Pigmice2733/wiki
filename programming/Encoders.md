@@ -1,57 +1,53 @@
-<b>Ever been on a website written in another language and had to utilize google translate to gain some 
-semblance of recognition as to what it was you were looking at?</b>
-Encoders work in a similar fashion to Google Translate, of course instead of translating languages it merely translates
+# Encoders
+Ever been on a website written in another language and had to utilize google translate to gain some 
+semblance of recognition as to what it was you were looking at?
+Encoders work in a similar fashion to Google Translate, of course instead of translating languages Encoders translate
 given data into another format.
 
-There's lots of different examples of encoders at work all around us, such as:
-  * Elevators - Encoders in elevators tell the elevator's controller device its position so that it can properly align itself with the floor and open up the doors
-  at the correct position.
+**Of course in Robotics, the encoders we use measure how fast a motor spins.**<br> Which is immeasurably important, it's the reason why our robot can actually turn and still drive straight.  This is because of the fact we can precisely measure how quickly our motor is turning and what angle it's turned in which allows us to make sure we have all our wheels facing the right direction.  Without encoders our robot would easily just end up flipping over due to the fact half of the motors were facing the wrong direction. 
+
+There's lots of different examples of encoders at work all around us, 
+such as:
+  * Elevators - Encoders in elevators tell the elevator's controller device its position so that it can properly align itself with the floor and open up the doors at the correct position.
   * Cranes - Some large cranes use encoders in order to collect accurate location information to know where it is.
-  * Computer Microphones - Encoders are used to convert those signals your microphone picks up into actual data that your computer can understand!
-  
-Encoders are the reason our robot can use a camera for visual recognition or record it's speed, or know when it's hit a brick wall.
 
-<b>TL;DR:  Encoders are the duct tape which binds our data together.</b>
+**TL;DR:  Encoders are the reason we can tell our robot to drive at angles.**
 
-<b>How do Encoders work?</b>
+**How do Encoders (generally) work?**
 
 <img src="http://encoder.com/core/files/encoder/uploads/images/Encoder-exploded-COLOR-v2.jpg"></img>
 
-Encoders are made out of a variety of different technologies and tend to vary quite a bit.  The example shown above, taken from
-encoder.com (see sources for link), has a stream of light which comes from the LED and goes through the "Code Disk".  As the light goes
-through the "Code Disk" it becomes interrupted as the blades from the "Code Disk" block it from the "Photodetector Assembly" which detects light.  
-The result is a binary output of either the light being on and the light being off.  This simple value is then passed to another device,
-generally called a "controller" which actually interprets the data.
+There are a lot of encoders in the world at large.  Hardware encoders are made out of a variety of different technologies and tend to vary quite a bit as do their purposes.  The encoder in the example shown above is used to detect the speed of which the motor is spinning.  This specific encoder, taken from <a href="http://encoder.com/blog/company-news/what-is-an-encoder/">encoder.com</a>, has a stream of light which comes from the LED and goes through the "Code Disk".  As the light goes through the "Code Disk" it becomes interrupted as the blades from the "Code Disk" block it from the "Photodetector Assembly" which detects light.  The result is a binary output of either the light being on or the light being off.  This simple value is then passed on to another device, generally called a "controller" which actually interprets the data.  Because the controller can obtain these simple values it can measure how frequently the light is being blocked from which it can determine the speed of the motor.  It can check whether or not the motor is actually running based on if there is no change in the on or off value over a long period of time.
 
 Most optical sensors work like the one pictured above by relying on the interruption of light picked up by another sensor.
 
-<b> How we use encoders! </b><br>
-Here is an example of encoders in python:
+## How we use encoders!
 
+We use the *robotpy library* for interfacing to our robot's components with Python, and the library has a class interface to <a href="http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib/Encoder.html">the Encoder library</a> (yes they call it the encoder library), and to use it, you first create an instance of Encoder oriented to your hardware encoder, such as: **[EXAMPLES OF ENCODERS IN THE ROBOTPY LIBRARY TO BE ADDED]**
 ```python
-# Set current position to zero
-        self._reset_encoder_position()
+# Here is an example by Ben from the programming team of the library (code untested)
 
-        self.profile_executor = ProfileExecutor(
-            coefs, motion_profile,
-            lambda: self._get_encoder_position() / 1023,
-            lambda output: self.forward_at(-output), 0.08)
-    def _reset_encoder_position(self):
-        self.fl_motor.setEncPosition(0)
+def main():
 
-    def _get_encoder_position(self):
-        return -self.fl_motor.getPosition()
-
-
+     channel = 0
+     pot = AnalogPotentiometer(channel)
+     
+     print(pot.get())
+     
+if __name__ == "__main__"():
+     main()
 
 ```
 
 
 
-<i>Sources (Read for more information):
+*Sources (Read for more information):
 http://encoder.com/blog/company-news/what-is-an-encoder/ 
 https://en.wikipedia.org/wiki/Encoder
-</i>
+https://www.dacast.com/blog/software-vs-hardware-encoders-for-live-video-streams/
+*
+
+
 
 
 
