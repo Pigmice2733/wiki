@@ -14,6 +14,10 @@ The horizontal band saw takes a 64 1/2 blade 1/2 x 6-10 teeth. We have bought ou
 
 This is the vertical band saw blade we'd like to try next time we need a replacement (copy of order, but order was not placed due to shipping costs). Good to combine buying horizontal and vertical blades at same time. Local blade companies don't offer 14/18 but it was recommended as the variable tooth we need for aluminum from Jay Ewing.
 
+## Makita Drill
+
+![Makita Drill](images\Machinery_Models\makita_drill.jpg)
+
 ## Current Stapler
 
 ![Stapler](images\Machinery_Models\stapler_side.jpg)
