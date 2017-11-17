@@ -8,4 +8,5 @@ Here you'll find instructions and guidelines for completing various tasks on the
 
 - [Programming](programming)
 - [Project Management](project-management)
+- [Machinery Models](machinery-models)
 - [Contributing to this wiki](contributing-to-wiki)
