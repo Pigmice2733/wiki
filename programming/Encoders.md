@@ -1,10 +1,7 @@
 # Encoders
-Ever been on a website written in another language and had to utilize google translate to gain some 
-semblance of recognition as to what it was you were looking at?
-Encoders work in a similar fashion to Google Translate, of course instead of translating languages Encoders translate
-given data into another format.
 
-**Of course in Robotics, the encoders we use measure how fast a motor spins.**<br> Which is immeasurably important, it's the reason why our robot can actually turn and still drive straight.  This is because of the fact we can precisely measure how quickly our motor is turning and what angle it's turned in which allows us to make sure we have all our wheels facing the right direction.  Without encoders our robot would easily just end up flipping over due to the fact half of the motors were facing the wrong direction. 
+
+**Encoders measure how fast a motor spins.**<br> Which is immeasurably important, it's the reason why our robot can actually turn and still drive straight.  This is because of the fact we can precisely measure how quickly our motor is turning and what angle it's turned in which allows us to make sure we have all our wheels facing the right direction.  Without encoders our robot would easily just end up flipping over due to the fact half of the motors were facing the wrong direction. 
 
 There's lots of different examples of encoders at work all around us, 
 such as:
@@ -23,20 +20,39 @@ Most optical sensors work like the one pictured above by relying on the interrup
 
 ## How we use encoders!
 
-We use the *robotpy library* for interfacing to our robot's components with Python, and the library has a class interface to <a href="http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib/Encoder.html">the Encoder library</a> (yes they call it the encoder library), and to use it, you first create an instance of Encoder oriented to your hardware encoder, such as: **[EXAMPLES OF ENCODERS IN THE ROBOTPY LIBRARY TO BE ADDED]**
+We use the *robotpy library* for interfacing to our robot's components with Python, and the library has a class interface to <a href="http://robotpy.readthedocs.io/projects/wpilib/en/latest/wpilib/Encoder.html">the Encoder library</a> (yes they call it the encoder library).  Below is an example made by a user on github, [virtuald ("Dustin Spicuzza")]("https://github.com/virtuald"), which showcases utilzing an encoder to munipulate a motor.  
 ```python
-# Here is an example by Ben from the programming team of the library (code untested)
+#!/usr/bin/env python3
 
-def main():
+import wpilib
 
-     channel = 0
-     pot = AnalogPotentiometer(channel)
-     
-     print(pot.get())
-     
-if __name__ == "__main__"():
-     main()
+class MyRobot(wpilib.IterativeRobot):
+    
+    def robotInit(self):
+        
+        self.stick = wpilib.Joystick(0)
+        self.motor = wpilib.Jaguar(0)
 
+        self.encoder = wpilib.Encoder(0, 1)
+    
+    def teleopInit(self):
+        pass
+    
+    def teleopPeriodic(self):
+
+        v = self.stick.getX()
+        encoder_value = self.encoder.get()
+
+        # limit the motor to only travel between 0 and 180
+        if encoder_value < 0:
+            v = max(0, v)
+        elif encoder_value > 180:
+            v = min(0, v)
+        
+        self.motor.set(v)
+
+if __name__ == '__main__':
+    wpilib.run(MyRobot)
 ```
 
 
