@@ -1,5 +1,6 @@
 # Minibot Assembly
-## How to build your own mini robot, how to program that robot is on the following tutorial 
+### Instructions on how to build your own mini robot!
+#### How to program your minibot is on the following tutorial. 
 
 Creating a minibot is great for testing small projects. It's an easy change to try out new parts out and costs considerably less than a larger robot. 
 
