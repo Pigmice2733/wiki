@@ -99,6 +99,3 @@ We use many parts from Sainsmart's 4WD Robot Car Chasis Kit (https://www.sainsma
 1. We will be using the raspberry pi to program our minibot. You will use the miniusb to microusb connector to connect the pololu board to the raspberry pi. 
 
 Congratulations, you have finished a minirobot! In our following tutorial we will show you how to write and download code to make your robot move, and how to add different sensors to it! 
-
-
-
