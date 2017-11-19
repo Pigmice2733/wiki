@@ -15,10 +15,13 @@ We also use [RobotPy](https://robotpy.readthedocs.io/en/stable/). Here are some 
 
 - [Anatomy of a Robot](https://robotpy.readthedocs.io/en/stable/guide/anatomy.html)
 - [MagicBot Framework](https://robotpy.readthedocs.io/en/stable/frameworks/magicbot.html)
-- [Encoders](Encoders.d)
 
 ## Git
 Our code is versioned using [Git](https://git-scm.com/). Git lets us collaborate on code and keep track of changes.
 
 - [Brief Introduction](https://try.github.io)
 - [Branching and Code Review](branching)
+
+## Parts of a Robot
+
+- [Encoders](encoders) - Sensors that track rotation of axles and motors
