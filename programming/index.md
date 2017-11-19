@@ -5,7 +5,7 @@ The Programming team sets up the robot to move based on the driver's controls.
 ## Python
 We program the robot using [Python](https://www.python.org/). Here are a few guides to general python use.
 
-- [Getting Started with Python](getting-started)
+* [Getting Started with Python](getting-started)
 - [Learn Python](https://www.learnpython.org/)
 - [Codecademy Python](https://www.codecademy.com/learn/learn-python)
 - [Python Primer](https://robotpy.readthedocs.io/en/stable/guide/python.html#python-primer)
