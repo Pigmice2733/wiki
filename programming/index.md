@@ -21,3 +21,9 @@ Our code is versioned using [Git](https://git-scm.com/). Git lets us collaborate
 
 - [Brief Introduction](https://try.github.io)
 - [Branching and Code Review](branching)
+
+## Minibots
+We can create minibots to help testout code and new technologies. The following are tutorials on how to assembly and code a minibot 
+- [Assemblying a Minibot](minibot-assembly-tutorial.html)
+
+
