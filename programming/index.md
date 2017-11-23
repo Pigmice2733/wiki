@@ -22,6 +22,12 @@ Our code is versioned using [Git](https://git-scm.com/). Git lets us collaborate
 - [Brief Introduction](https://try.github.io)
 - [Branching and Code Review](branching)
 
+## Unit Testing
+We use unit testing to help catch bugs in our code. This lets us quickly identify what parts of our code need to be fixed.
+
+- [Unit Testing in Python](http://pythontesting.net/framework/unittest/unittest-introduction/#overview)
+- [Unit Testing in Atom](unit-testing-in-atom.html)
+
 ## Parts of a Robot
 
 - [Encoders](encoders) - Sensors that track rotation of axles and motors
