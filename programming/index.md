@@ -2,6 +2,9 @@
 
 The Programming team sets up the robot to move based on the driver's controls.
 
+## Setup
+- [Setting up your computer](setting-up-your-computer)
+
 ## Python
 We program the robot using [Python](https://www.python.org/). Here are a few guides to general python use.
 
