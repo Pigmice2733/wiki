@@ -26,4 +26,6 @@ Our code is versioned using [Git](https://git-scm.com/). Git lets us collaborate
 We create minibots to test code and new technologies. The following are tutorials on how to assemble and code a minibot 
 - [Assemblying a Minibot](minibot-assembly-tutorial.html)
 
+## Parts of a Robot
 
+- [Encoders](encoders) - Sensors that track rotation of axles and motors
