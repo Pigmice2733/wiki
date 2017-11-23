@@ -11,6 +11,7 @@ There's lots of different examples of encoders at work all around us, such as:
 **How do Encoders (generally) work?**
 
 ![Encoder Diagram](http://encoder.com/core/files/encoder/uploads/images/Encoder-exploded-COLOR-v2.jpg)
+### *Diagram taken from http://encoder.com/blog/company-news/what-is-an-encoder/*
 
 There are a lot of encoders in the world at large. Hardware encoders are made out of a variety of different technologies and tend to vary quite a bit as do their purposes. The encoder in the example shown above is used to detect the speed of which the motor is spinning. This specific encoder, taken from [encoder.com](http://encoder.com/blog/company-news/what-is-an-encoder/), has a stream of light which comes from the LED and goes through the "Code Disk". As the light goes through the "Code Disk" it becomes interrupted as the blades from the "Code Disk" block it from the "Photodetector Assembly" which detects light. The result is a binary output of either the light being on or the light being off. This simple value is then passed on to another device, generally called a "controller" which actually interprets the data. Because the controller can obtain these simple values it can measure how frequently the light is being blocked from which it can determine the speed of the motor. It can check whether or not the motor is actually running based on if there is no change in the on or off value over a long period of time.
 
