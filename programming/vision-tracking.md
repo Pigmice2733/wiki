@@ -24,7 +24,8 @@ Example:
 img = cv2.imread('name-of-picture.jpg', cv2.IMREAD_UNCHANGED)
 ```
 The second argument is a flag which specifies the way image should be read. Here are three options
-```cv2.IMREAD_COLOR : Loads a color image. Any transparency of image will be neglected. It is the default flag.
+```
+cv2.IMREAD_COLOR : Loads a color image. Any transparency of image will be neglected. It is the default flag.
 cv2.IMREAD_GRAYSCALE : Loads image in grayscale mode
 cv2.IMREAD_UNCHANGED : Loads image as such including alpha channel
 ```
