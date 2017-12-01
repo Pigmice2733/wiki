@@ -1,0 +1,2 @@
+# PID Loops
+PID stands for position, integral, and derivative,  it's mainly used in autonomous to make sure our robot is staying on the right track. 
