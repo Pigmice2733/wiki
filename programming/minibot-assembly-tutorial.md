@@ -1,6 +1,6 @@
 # Minibot Assembly
 ### Instructions on how to build your own mini robot!
-#### How to program your minibot is on the following tutorial. 
+#### How to program your minibot is on the following tutorial.
 
 Creating a minibot is great for testing small projects. It's an easy change to try out new parts out and costs considerably less than a larger robot. 
 
@@ -74,28 +74,28 @@ We use many parts from Sainsmart's 4WD Robot Car Chasis Kit (https://www.sainsma
 7. Slip the heat shrink over the connection. Use a heat gun or your soldering gun to secure the connection
 ![Finished Connection](/images/minibot/soldering-done.jpg)
 
-8. You can now connect the motor controller to the two motors through the small pcs connector. 
+8. You can now connect the motor controller to the two motors through the small PCS connector. 
 
 ### POLOLU BOARD:
 1. You will need to solder a small wire within the pololu board, connecting the 5V pin to the first power pin.
 ![Motor Controller Back View](/images/minibot/motor-controller-back.jpg)
 
-2. Use the collection of 3 female pins on the motor controller, not the one we clipped the power wire off in step 1 of motor speed controllers, to the pololu board. You can connect it to the first column of pins on the board, that are labeled ground, 5V, and signal. It's a bit of a mess, but all the wires coming from the motor controller should be connected to another wire, except for the large pcs connector. 
+2. Use the collection of 3 female pins on the motor controller, not the one we clipped the power wire off in step 1 of motor speed controllers, to the pololu board. You can connect it to the first column of pins on the board, that are labeled ground, 5V, and signal. It's a bit of a mess, but all the wires coming from the motor controller should be connected to another wire, except for the large PCS connector. 
 ![Finished Connection](/images/minibot/motor-connections.jpg)
 
 ### Battery Supply
-1. You can either use a battery pack made for 6 AA batteries or you can use a 5V rechargable battery pack. You will also need a small pcs connector. 
+1. You can either use a battery pack made for 6 AA batteries or you can use a 5V rechargable battery pack. You will also need a small PCS connector. 
 ![Battery Supplies](/images/minibot/battery-pack-unsoldered.jpg)
 
 2. Cut a piece of heat shrink in half, and slip it over the wires coming from the battery pack. '
 ![Heat Shrink](/images/minibot/heat-shrink.jpg)
 
-3. Solder the battery pack to the pcs connector and add the heat shrink over it. 
+3. Solder the battery pack to the PCS connector and add the heat shrink over it. 
 ![Completed Battery](/images/minibot/battery-done.jpg)
 
-4. You can now screw in your battery pack to the bottom of the minibot and connect it to the last big pcs connector coming from the motor controller.
+4. You can now screw in your battery pack to the bottom of the minibot and connect it to the last big PCS connector coming from the motor controller.
 
 ### Connecting to the RaspberryPi: 
-1. We will be using the raspberry pi to program our minibot. You will use the miniusb to microusb connector to connect the pololu board to the raspberry pi. 
+1. We will be using the Raspberry Pi to program our minibot. You will use the USB A to USB Mini B connector to connect the pololu board to the Raspberry Pi. 
 
 Congratulations, you have finished a minirobot! In our following tutorial we will show you how to write and download code to make your robot move, and how to add different sensors to it! 
