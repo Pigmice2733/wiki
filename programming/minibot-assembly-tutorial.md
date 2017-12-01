@@ -30,33 +30,33 @@ We use many parts from Sainsmart's 4WD Robot Car Chasis Kit (https://www.sainsma
 ------------------------------
 
 ### CHASSIS:
-1. Assemble your frame with little nuts and bolts 
+1. Assemble your frame with the supplied little nuts and bolts
 
-### MOTORS: 
-1. Stand the motor on it's side, with it's connection points facing you. You need to solder a PCS Female Connector to it. The positive red wire should be soldered to the top and the negative black wire on the bottom.
+### MOTORS:
+1. Stand the motor on its side with its connection points facing you. You need to solder a PCS female connector to it. The positive red wire should be soldered to the top and the negative black wire on the bottom.
 ![Motor Battery Wires ](/images/motor-battery-wires.jpg)
 
-2. Take another motor and solder a yellow wire to each of the motors connections.
+2. Take another motor and solder a yellow wire to each of the motors connectors.
 ![Motor Closeup View](/images/motor-closeup.jpg)
 
-3. Line the motor up so you have your motor with the pcs connector on the left and the motor with the yellow wires on the right.
+3. Line the motor up so that the PCS connector is on your the left and the motor with the yellow wires is on your right.
 
-4. Now solder the yellow wires to the other motor, but solder to the opposite connection. The yellow wire, for example, that's on top should be soldered to the connection on the bottom on the other motor.
+4. Now solder the yellow wires to the other motor, but solder to the opposite connectors. The yellow wire, for example, that's on top should be soldered to the connection on the bottom on the other motor.
 ![Motor Far View](/images/motor-far-view.jpg)
 
-5. You can now attach both motors to the frame (there's two holes on each side of the motor). 
+5. Now, attach both motors to the frame (there's two holes on each side of the motor). 
 
-6. Repeat steps 2-5 with the other two motors. Your second two motors should look like the following (make sure you have the two sets of motors facing the same way). 
+6. Repeat steps 2-5 with the remaining two motors. Use the following image as a reference for these two motors (make sure you have the two sets of motors facing the same way).
 ![Motor Flipped](/images/motor-flipped.jpg)
 
-7. From a top view your motor should look like this: 
+7. From a top view your motor should look like this:
 ![Motors Top View](/images/top-view.jpg)
 
 ### MOTOR SPEED CONTROLLERS: 
-1. On the brushed motor speed controller cut the red power wire going to the battery connector, as it won't be needed
+1. On the brushed motor speed controller cut the red power wire going to the battery connector, as it won't be needed.
 ![Motor Controller Cut Wire](/images/motor-controller-cut-wire.jpg)
 
-2. On the brushed motor speed controller remove the large pcs female connector, from each of the two boards. 
+2. On the brushed motor speed controller remove the large PCS female connector, from each of the two boards. 
 ![Brushed Motor Controller](/images/brushed-motor-controller.jpg)
 
 3. Solder the two ends together (red to red and black to black)
