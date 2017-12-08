@@ -1,0 +1,9 @@
+#PID Loops
+PID loops or control loops is a constant loop that looks for feedback and changes with that. For example, your thermostat uses a control loop: it looks to see if your house is cold, if your house's temperature is lower than an amount given it turns on the heat. We use this same principle in robotics.
+
+These loops are often used in autonomous, they create a constant loop that checks for errors and adjusts along the way. 
+For example, let's say we need to go 10 feet in autonomous, but one of our motors is having trouble and we are going slower than planned. Good thing we have set up a PID loop! It recognizes this lag and rejusts, meaning we will go for a longer period of time than planned to still go 10 feet.
+Or, maybe our robot is veering slightly to the right, our PID loops reconginzes that we are not on the set path and makes us go a little longer to still reach our 10 foot mark. 
+Robot drivers can account for these slight problems, but during autonomous it a small problem could potentially throw your whole autonomous game off. 
+
+PID stands for Proportional (or Position), Integral, and Derivative.  
