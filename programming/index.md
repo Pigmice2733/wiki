@@ -22,6 +22,10 @@ Our code is versioned using [Git](https://git-scm.com/). Git lets us collaborate
 - [Brief Introduction](https://try.github.io)
 - [Branching and Code Review](branching)
 
+## Vision Tracking
+How to use the opencv library and the basics of vision tracking and camera callibration
+- [Installation](https://github.com/Pigmice2733/wiki/blob/octoflo-installation/programming/opencv-installation.md)
+
 ## Parts of a Robot
 
 - [Encoders](encoders) - Sensors that track rotation of axles and motors
