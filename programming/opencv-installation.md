@@ -1,13 +1,14 @@
 
 # Opencv Installation Process 
-Here are the steps, that you will **run in a terminal shell** that will get you ready to run the opencv library and vision track!
+Here are the steps, that you will **run in a terminal shell** that will get you ready to run the [OpenCV](https://opencv.org/) 
+library and vision track!
+
 ## For Linux 
-****************************** 
 Make sure your version of python is up to date 
 ```
 sudo apt-get install python3-pip
 ```
-Install the Opencv Library
+Install the OpenCV Library
 ```
 sudo apt-get install python-opencv
 ```
@@ -15,7 +16,7 @@ Install pipenv so we can create a virtual enviroment. A virtual enviroment means
 ```
 sudo pip3 install pipenv
 ```
-Either manually create a folder or create a folder called vt-exp through the terminal:
+Either manually create a folder or create a folder called vision-tracking-exp or vt-exp (whatever you'd like) through the terminal:
 ```
 mkdir vt-xp ; cd vt-xp
 ```
