@@ -24,7 +24,7 @@ Our code is versioned using [Git](https://git-scm.com/). Git lets us collaborate
 
 ## Vision Tracking
 How to use the opencv library and the basics of vision tracking and camera callibration
-- [Installation](https://github.com/Pigmice2733/wiki/blob/octoflo-installation/programming/opencv-installation.md)
+- [Installation](opencv-installation.html)
 
 ## Parts of a Robot
 
